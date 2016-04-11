@@ -1,9 +1,46 @@
-.navbar-default{
-    background-color : #1b6d85;
+header{
+    background-color:#3a5795;
+    padding:10px 0;
+}
+.btn-primary {
+    color: #fff;
+    background-color: inherit;
+    border-color: #3a5795;
+}
+.btn-primary{
+    color: #fff;
+    font-size:14px;
+    font-family: monospace;
+    margin-left: 36px;
+    margin-top: 23px;
+}
+.text-danger{
+    color: white;
 
 }
 
-.btn-default{
-    margin-top: 19px;
+.text-primary{
+    color: white;
+font-size: 26px;
+
+}
+
+body{
+    background:url('../images/facebook.jpg') no-repeat;
+    background-size: cover;
+    font-size: 13px;
+}
+/*.btn-ins{background-color: #69a74e;}*/
+.container form{margin:30px 0;}
+
+.fa-facebook{
+color: white;
+}
+.images{
+    background:url('/images/icon-facebook-light.png') no-repeat;
+    width: 50px;
+}
+.navbar-header{
+    color: white;
 
 }
