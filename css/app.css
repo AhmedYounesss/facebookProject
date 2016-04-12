@@ -44,3 +44,21 @@ color: white;
     color: white;
 
 }
+
+.btn-success{
+    margin-left: 148px;
+    width: 200px;
+    line-height: 126%;
+    font-size: 19px;
+}
+
+.btn-primary{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 0 -49px;
+    background-color: #5b74a8;
+    border-color: #2f477a #29447e #1a356e;
+    font-size: 12px;
+
+
+}
