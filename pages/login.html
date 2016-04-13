@@ -1,65 +1,65 @@
+<!--navbar Header-->
+<div class="row">
 <header>
-  <div class="row">
-    <div class="col-md-3 col-md-offset-1">
+    <div class="col-md-1 col-md-offset-1">
       <span class="text-primary"><strong>Facebook</strong></span>
       <!--<i class="fa fa-facebook" aria-hidden="true"></i>-->
       <!--<img src="/images/icon-facebook-light.png">-->
     </div>
 
-
-    <div class="col-md-6 col-md-offset-2">
+<!--authentification-->
+    <div class="col-md-8 col-md-offset-2" style="padding-left: 281px;">
       <form class="form-inline">
         <div class="form-group">
-          <div class="text-left text-danger"><p>Adresse e-mail ou mobile</p></div>
+          <div style="margin-left: 40px" class="text-left text-danger"><p>Adresse e-mail ou mobile</p></div>
           <label for="email" class="text-danger">Email</label>
           <input type="email" id="email" class="form-control" ng-model="login" />
         </div>
         <div class="form-group">
-          <div class="text-left text-danger"><p>Mot de passe</p></div>
+          <div class="text-left text-danger" style="margin: 0px 56px 2px;"><p>Mot de passe</p></div>
 
           <label for="pwd" class="text-danger">Password</label>
           <input type="password" id="pwd"  class="form-control"  ng-model="pwd"  />
         </div>
         <div class="form-group">
-          <button type="submit" class="btn btn-primary" ng-click="connect()">Connexion</button>
+        <button type="submit" class="btn btn-primary" ng-click="connect()">Connexion</button>
         </div>
       </form>
     </div>
-  </div>
 </header>
+</div>
 
 <!--Formulaire d'inscription facebook-->
 <div class="row">
 <br>
-
-  <div class="col-lg-12 col-lg-offset-6">
+<div class="col-sm-12">
+  <div class="col-sm-offset-6">
     <h1><strong>Inscription</strong></h1>
     <h3> C’est gratuit (et ça le restera toujours)</h3>
     <br>
     <br>
-
   <form class="form-horizontal" role="form">
         <div class="form-group" >
-          <div class="col-lg-2"> <input type="prenom" class="form-control"  placeholder="Prénom"></div>
-          <div class="col-lg-2"> <input type="nomDuFamille" class="form-control" placeholder="Nom de famille"></div>
+          <div class="col-lg-4"> <input type="prenom" class="form-control"  placeholder="Prénom"></div>
+          <div class="col-lg-4"> <input type="nomDuFamille" class="form-control" placeholder="Nom de famille"></div>
         </div>
 
     <div class="form-group" >
-      <div class="col-lg-4"> <input type="mobile" class="form-control"  placeholder="Numero du mobile"></div>
+      <div class="col-lg-8"> <input type="mobile" class="form-control"  placeholder="Numero du mobile"></div>
     </div>
     <div class="form-group" >
-      <div class="col-lg-4"> <input type="conNumMobile" class="form-control"  placeholder="Confirmé le numéro du mobile"></div>
+      <div class="col-lg-8"> <input type="conNumMobile" class="form-control"  placeholder="Confirmé le numéro du mobile"></div>
     </div>
     <div class="form-group" >
-      <div class="col-lg-4"> <input type="nouvMotDepasse" class="form-control"  placeholder="Nouveau mot de passe"></div>
+      <div class="col-lg-8"> <input type="nouvMotDepasse" class="form-control"  placeholder="Nouveau mot de passe"></div>
     </div>
-    <h3> Date de Naissancece</h3>
+    <h3> Date de Naissance</h3>
 
     <div class="form-group">
-      <div class="col-lg-4">  <input type="date" class="form-control" placeholder="Birthday"></div>
+      <div class="col-lg-8">  <input type="date" class="form-control" placeholder="Birthday"></div>
     </div>
 
-    <div class="form-group col-md-4 " >
+    <div class="form-group col-md-8 " >
 
       <label class="radio-inline "><input type="radio" name="optradio">Homme</label>
 
@@ -84,6 +84,6 @@
   </form>
 
 </div>
-
+</div>
   </div>
 

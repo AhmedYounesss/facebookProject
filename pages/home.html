@@ -1,5 +1,6 @@
-
-<nav class="navbar navbar-inverse" role="navigation" ng-hide="test">
+<!--navbar Header-->
+<div class="row">
+<nav class="navbar navbar-default" role="navigation" ng-hide="test">
   <div class="navbar-header">
   </div>
   <ul class="nav navbar-nav">
@@ -8,3 +9,11 @@
 
   </ul>
 </nav>
+ <!--Liste des amis -->
+<div class="col-lg-offset-9">
+  <h1><span>Liste des Amis </span></h1>
+  <h3 ng-repeat="x in records">{{x}}</h3>
+</div>
+</div>
+
+

@@ -12,7 +12,18 @@ angular.module("controllers",[])
 
   }
 })
-.controller("homeCtrl",function(){
+    //liste des amis
+.controller("homeCtrl",function($scope){
+      $scope.records = [
+        "Hamza Jridi",
+        "Nihel Msilini",
+        "Aman Allah",
+        "Ami Ami",
+        "Ami Ami1",
+        "Ami Ami2",
+
+
+      ]
 
 })
 .controller("profilCtrl",function(){

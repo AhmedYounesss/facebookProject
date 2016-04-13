@@ -1,6 +1,8 @@
 /**
  * Created by younes on 10/04/2016.
  */
+
+//routage des pages
 angular.module("myApp",["ui.router","controllers"]);
 
 angular.module("myApp").config(function($stateProvider,$urlRouterProvider){
