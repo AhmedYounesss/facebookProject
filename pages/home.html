@@ -16,4 +16,17 @@
 </div>
 </div>
 
+<div class="row1">
 
+<ul>
+  <!-- Rendre un élément li pour chaque entrée dans le tableau des éléments.-->
+  <li ng-repeat="i in items | searchFor:searchString">
+    <a href="{{i.url}}"><img ng-src="{{i.image}}" /></a>
+    <p>{{i.title}}</p>
+  </li>
+</ul>
+  <div class="bar">
+    <!-- Créer une liaison entre le modèle de recherche de chaîne et le champ de texte -->
+    <input type="text" ng-model="searchString" placeholder="Enter your search terms" />
+  </div>
+</div>
