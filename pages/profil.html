@@ -5,10 +5,30 @@
         </div>
         <ul class="nav navbar-nav" style="margin-left: 400px">
             <li><input type="search" placeholder="chercher facebook" class="sea"/></li>
-            <li ><a ui-sref="profil" ><img src="images/ahmed.jpg" style="height: 30px;width: 30px">&nbsp;&nbsp;<span class="me">Ahmed</span></a></li>
+            <li><a ui-sref="profil"><img src="images/ahmed.jpg" style="height: 30px;width: 30px">&nbsp;&nbsp;<span>Ahmed</span></a></li>
             <li class="text-right"><a ui-sref="home">Home</a></li>
         </ul>
     </nav>
+</div>
+
+<div class="row">
+
+    <div class="col-md-3">
+
+       <div><img src="images/ahmed.jpg" style="height: 150px;width: 150px"></div>
+
+        <ul>
+            <li style="display: inline"><span>sssss</span></li>
+            <li style="display: inline"><span >sssss</span></li>
+            <li style="display: inline"><span>sssss</span></li>
+        </ul>
+    </div>
+    <!--liste des amis recuper a partir de la liste data.json-->
+    <ul>
+        <li ng-repeat ="item in data">
+            <h2 style="color: #023E54">{{item.name}}</h2>
+        </li>
+    </ul>
 </div>
 
 
