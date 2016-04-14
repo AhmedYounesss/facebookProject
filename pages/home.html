@@ -1,22 +1,23 @@
-<!--navbar Header-->
 <div class="row">
-<nav class="navbar navbar-default" role="navigation" ng-hide="test">
-  <div class="navbar-header">
-  </div>
-  <ul class="nav navbar-nav">
-    <li><a ui-sref="home">Home</a></li>
-    <li><a ui-sref="profil">Profile</a></li>
+    <nav class="navbar navbar-default" role="navigation" ng-hide="test">
+        <div class="navbar-header">
+            <a class="navbar-brand" ui-sref="#"><span class="text-primary">Facebook</span></a>
+        </div>
+        <ul class="nav navbar-nav" style="margin-left: 400px">
+            <li><input type="search" placeholder="chercher facebook" class="sea"/></li>
+            <li ><a ui-sref="profil" ><img src="images/ahmed.jpg" style="height: 30px;width: 30px">&nbsp;&nbsp;<span class="me">Ahmed</span></a></li>
+            <li class="text-right"><a ui-sref="home">Home</a></li>
+            <!--<li><button type="submit" class="btn btn-primary" ng-click="deconnection()">Deconnection</button></li>-->
 
-  </ul>
-</nav>
- <!--Liste des amis -->
-<div class="col-lg-offset-9">
-  <h1><span>Liste des Amis </span></h1>
-  <h3 ng-repeat="x in records">{{x}}</h3>
-</div>
+        </ul>
+    </nav>
 </div>
 
-<div class="row1">
+<div class="row">
+    <div class="col-md-offset-7">
+    <!--Liste des amis -->
+    <h1 class="text-center">Liste des Amis</h1>
+    <h3 ng-repeat="x in records">{{x}}</h3>
 
 <ul>
   <!-- Rendre un élément li pour chaque entrée dans le tableau des éléments.-->
@@ -29,4 +30,8 @@
     <!-- Créer une liaison entre le modèle de recherche de chaîne et le champ de texte -->
     <input type="text" ng-model="searchString" placeholder="Enter your search terms" />
   </div>
+
+
+</div>
+
 </div>

@@ -1,5 +1,4 @@
 header{
-
     background-color:#3a5795;
     padding:10px 0;
     overflow: hidden;
@@ -20,7 +19,13 @@ header{
     color: white;
 
 }
-
+.sea {
+    width: 45%;
+    height: 28px;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 12px;
+}
 .text-primary{
     color: white;
 font-size: 26px;
@@ -28,9 +33,7 @@ font-size: 26px;
 }
 
 body{
-    font-size: 11px;
-    /*background:url('../images/facebook.jpg') no-repeat;*/
-    background-size: cover;
+    font-size: 13px;
 
 }
 /*.btn-ins{background-color: #69a74e;}*/
@@ -45,6 +48,11 @@ color: white;
 }
 .navbar-header{
     color: white;
+
+}
+.mah{
+    background:url('../images/facebook.jpg') no-repeat;
+    background-size: cover;
 
 }
 
@@ -67,16 +75,21 @@ color: white;
 }
 .navbar-default {
     background-color:#3a5795 ;
+    min-height: 77px;
 }
 
 .navbar-default .navbar-nav li a {
     color: #ffffff;
 }
 
+.container-fluid{
 
+ padding-right: 0px;
+ padding-left: 0px;
+}
 
 /*-------------------------
-	Input de recherche
+Input de recherche
 --------------------------*/
 
 
@@ -123,7 +136,6 @@ ul{
 }
 
 ul li{
-    border-bottom: 1px solid #ddd;
     padding: 10px;
     overflow: hidden;
 }
@@ -142,6 +154,3 @@ ul li p{
     color:#6e7a7f;
 }
 
-.row1{
-    margin-left: 998px;
-}

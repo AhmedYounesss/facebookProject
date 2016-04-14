@@ -1,3 +1,6 @@
+/**
+ * Created by younes on 10/04/2016.
+ */
 angular.module("controllers",[])
 .controller("loginCtrl",function($scope,$state){
   $scope.login="";
@@ -15,6 +18,10 @@ angular.module("controllers",[])
 
     //liste des amis
 .controller("homeCtrl",function($scope){
+      $scope.deconnection = function($scope) {
+        return false;
+      };
+
       $scope.items = [
         {
           url: 'https://www.facebook.com/jridi2',
