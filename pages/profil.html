@@ -5,30 +5,75 @@
         </div>
         <ul class="nav navbar-nav" style="margin-left: 400px">
             <li><input type="search" placeholder="chercher facebook" class="sea"/></li>
-            <li><a ui-sref="profil"><img src="images/ahmed.jpg" style="height: 30px;width: 30px">&nbsp;&nbsp;<span>Ahmed</span></a></li>
+            <li><a ui-sref="profil"><img src="images/ahmed.jpg"
+                                         style="height: 30px;width: 30px">&nbsp;&nbsp;<span>Ahmed</span></a></li>
             <li class="text-right"><a ui-sref="home">Home</a></li>
         </ul>
     </nav>
 </div>
 
 <div class="row">
+    <div class="col-md-12">
 
-    <div class="col-md-3">
+    <div class="col-md-12">
+            <div class="col-md-2">
+                <img src="images/ahmed.jpg" style="height:150px;width: 150px;    margin-left: 70px;">
+            </div>
+        <div class="col-md-6" style="margin-top: 138px;">
+&nbsp;&nbsp;&nbsp;
+            <!--<h4>-->
+            <!--<span>Journal</span>-->
+            <!--&nbsp;&nbsp;&nbsp;-->
+            <!--<span>A Propos</span>-->
+            <!--&nbsp;&nbsp;&nbsp;-->
+            <!--<span>Amis</span>-->
+            <!--&nbsp;&nbsp;&nbsp;-->
+            <!--<span>Photos</span>-->
+            <!--&nbsp;&nbsp;&nbsp;-->
+            <!--<span>Plus</span>-->
+            <!--</h4>-->
+            <button class="btn btn-default" ng-click="journalShow();">Journal</button>
+            <!--<button class="btn btn-danger" ng-click="journaHide();">Journal</button>-->
+            <button class="btn btn-danger" ng-click="proposShow();">A Propos</button>
+            <!--<button class="btn btn-danger" ng-click="proposHide();">A Propos</button>-->
+            <button class="btn btn-danger" ng-click="amisShow();">Amis</button>
+            <!--<button class="btn btn-danger" ng-click="amishide();">Amis</button>-->
+            <button class="btn btn-danger" ng-click="photoShow();">Photos</button>
+            <button class="btn btn-danger" ng-click="plusShow();">Plus</button>
 
-       <div><img src="images/ahmed.jpg" style="height: 150px;width: 150px"></div>
 
-        <ul>
-            <li style="display: inline"><span>sssss</span></li>
-            <li style="display: inline"><span >sssss</span></li>
-            <li style="display: inline"><span>sssss</span></li>
-        </ul>
+        </div>
     </div>
     <!--liste des amis recuper a partir de la liste data.json-->
     <ul>
-        <li ng-repeat ="item in data">
+        <li ng-repeat="item in data">
             <h2 style="color: #023E54">{{item.name}}</h2>
         </li>
     </ul>
 </div>
 
+
+</div>
+
+
+
+        <div class="form-group" ng-show="show1">
+            <p>I am showing</p>
+        </div>
+        <div class="form-group" ng-show="show2">
+            <p>I am showing2</p>
+        </div>
+        <div class="form-group" ng-show="show3">
+            <p>I am showing3</p>
+        </div>
+        <div class="form-group" ng-show="show4">
+            <p>I am showing4</p>
+        </div>
+        <div class="form-group" ng-show="show5">
+            <p>I am showing4</p>
+        </div>
+        <div class="form-group" ng-show="show6">
+        <p>I am showing4</p>
+        </div>
+</div>
 
