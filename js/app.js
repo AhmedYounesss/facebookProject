@@ -1,7 +1,7 @@
 /**
  * Created by younes on 10/04/2016.
  */
-var app = angular.module("myApp",["ui.router"]);
+var app = angular.module("myApp",["ui.router","ui.bootstrap"]);
 
 app.filter('searchFor', function(){
 

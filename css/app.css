@@ -154,3 +154,19 @@ ul li p{
     color:#6e7a7f;
 
 }
+
+/*style css du model*/
+.modal-content{
+    margin-left: 96px;
+}
+.modal-title{
+    color: #D9534F;
+    background-color:#ffffff;
+    border-color:#ffffff;
+}
+.alert-danger{
+    background-color:#ffffff;
+    border-color:#ffffff;
+
+
+}

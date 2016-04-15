@@ -1,0 +1,16 @@
+<!--poupup du model :erreur login ou mot de passe-->
+
+<div ng-controller="loginCtrl">
+
+    <div class="modal-header alert alert-danger">
+        <h3 class="modal-title"><i  style="font-size: 16px;" class="fa fa-exclamation-triangle"></i> Connection Failed</h3>
+    </div>
+    <div class="modal-body">
+
+<strong>Le mot de passe ou email sont incorrect. Vous l’avez oublié ?</strong>
+
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-danger" type="button" ng-click="ok()">CLOSE</button>
+    </div>
+</div>
